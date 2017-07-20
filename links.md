@@ -1,0 +1,5 @@
+- https://console.firebase.google.com/project/test-82867/overview
+- https://www.rdbhost.com/
+- https://www.rdbhost.com/github_hosting.html
+- http://rdbhost.blogspot.fr/2011/05/host-your-database-backed-site-on.html
+- https://github.com/rypan/jekyll-db
