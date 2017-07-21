@@ -31,6 +31,12 @@ writeData('test/path', data).then(function(){
 	console.log('added data to test/path')
 })
 
+// add data to node
+function addData(path, data) {
+	return database.ref(path).push().set(data)
+}
+addData('test/path', data)
+
 // onchange DB test/path
 var meuh = database.ref('test/path')
 	meuh.on('value', function (res) {
